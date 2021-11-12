@@ -1,0 +1,36 @@
+﻿using UnityEngine;
+using UnityEngine.UI;
+
+public class UIManager : MonoBehaviour
+{
+    public static UIManager Instance;
+    public Text txtGold;
+    public Text txtWave;
+    public Text txtLives;
+    public Text txtLevel;
+    public GameObject pauseMenu;
+    public GameObject victoryScreen;
+    public GameObject enemyInfo;
+
+    void Awake() 
+    {
+        Instance = this;
+    }
+    private void Start()
+    {
+        Instance.pauseMenu.SetActive(false);
+        Instance.victoryScreen.SetActive(false);
+        Instance.enemyInfo.SetActive(false);
+    }
+    private void UpdateTopBar()
+    {
+        txtGold.text = GameManager.Instance.goldNumber.ToString();
+        txtWave.text = "Wave " + GameManager.Instance.waveCount + " / " + WaveManager.Instance.curList.list[GameManager.Instance.currentLevel - 1].list.Count;
+        txtLives.text = "Remaining lives " + GameManager.Instance.livesNumber.ToString();
+        txtLevel.text = "Level " + GameManager.Instance.currentLevel;
+    }
+    void Update()
+    {
+        UpdateTopBar();
+    }
+}

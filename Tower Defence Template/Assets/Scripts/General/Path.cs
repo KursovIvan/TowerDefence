@@ -1,12 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class Path : MonoBehaviour
 {
     public List<GameObject> pathWaypoints = new List<GameObject>();
 
-    private void Start()
+    private void Awake()
     {
         createListOfWaypoints();
     }

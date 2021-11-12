@@ -1,19 +1,24 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-using System;
+﻿using System.Collections.Generic;
 using System.Linq;
+using UnityEngine;
 
 public class Shop : MonoBehaviour
 {
     public static Shop Instance;
     public GameObject StonePrefab;
-    public GameObject FirePrefab;
+    public GameObject CannonPrefab;
+    public GameObject IcePrefab;
+    public GameObject ShotgunPrefab;
+    public GameObject BuffPrefab;
+    public GameObject BallistaPrefab;
+    public GameObject WizardPrefab;
+    public GameObject TeslaPrefab;
+    public GameObject PoisonPrefab;
+    public GameObject OraclePrefab;
     public GameObject ItemPref;
     public Transform ItemGrid;
 
-   [Serializable]
+   [System.Serializable]
    public struct TowerCost
     {
         public Sprite towerSprite;
@@ -44,10 +49,78 @@ public class Shop : MonoBehaviour
                 case TowerType.StoneTower:
                     Instantiate(StonePrefab, slotToFill, Quaternion.identity, parent);
                     GameManager.Instance.goldNumber -= GetTowerPrice(towerT);
+                    foreach (BuffTower buffTower in FindBuffTowers())
+                    {
+                        buffTower.GiveBuff();
+                    }
                     break;
-                case TowerType.FireTower:
-                    Instantiate(FirePrefab, slotToFill, Quaternion.identity, parent);
+                case TowerType.CannonTower:
+                    Instantiate(CannonPrefab, slotToFill, Quaternion.identity, parent);
                     GameManager.Instance.goldNumber -= GetTowerPrice(towerT);
+                    foreach (BuffTower buffTower in FindBuffTowers())
+                    {
+                        buffTower.GiveBuff();
+                    }
+                    break;
+                case TowerType.IceTower:
+                    Instantiate(IcePrefab, slotToFill, Quaternion.identity, parent);
+                    GameManager.Instance.goldNumber -= GetTowerPrice(towerT);
+                    foreach (BuffTower buffTower in FindBuffTowers())
+                    {
+                        buffTower.GiveBuff();
+                    }
+                    break;
+                case TowerType.ShotgunTower:
+                    Instantiate(ShotgunPrefab, slotToFill, Quaternion.identity, parent);
+                    GameManager.Instance.goldNumber -= GetTowerPrice(towerT);
+                    foreach (BuffTower buffTower in FindBuffTowers())
+                    {
+                        buffTower.GiveBuff();
+                    }
+                    break;
+                case TowerType.BuffTower:
+                    Instantiate(BuffPrefab, slotToFill, Quaternion.identity, parent);
+                    GameManager.Instance.goldNumber -= GetTowerPrice(towerT);
+                    break;
+                case TowerType.BallistaTower:
+                    Instantiate(BallistaPrefab, slotToFill, Quaternion.identity, parent);
+                    GameManager.Instance.goldNumber -= GetTowerPrice(towerT);
+                    foreach (BuffTower buffTower in FindBuffTowers())
+                    {
+                        buffTower.GiveBuff();
+                    }
+                    break;
+                case TowerType.WizardTower:
+                    Instantiate(WizardPrefab, slotToFill, Quaternion.identity, parent);
+                    GameManager.Instance.goldNumber -= GetTowerPrice(towerT);
+                    foreach (BuffTower buffTower in FindBuffTowers())
+                    {
+                        buffTower.GiveBuff();
+                    }
+                    break;
+                case TowerType.TeslaTower:
+                    Instantiate(TeslaPrefab, slotToFill, Quaternion.identity, parent);
+                    GameManager.Instance.goldNumber -= GetTowerPrice(towerT);
+                    foreach (BuffTower buffTower in FindBuffTowers())
+                    {
+                        buffTower.GiveBuff();
+                    }
+                    break;
+                case TowerType.PoisonTower:
+                    Instantiate(PoisonPrefab, slotToFill, Quaternion.identity, parent);
+                    GameManager.Instance.goldNumber -= GetTowerPrice(towerT);
+                    foreach (BuffTower buffTower in FindBuffTowers())
+                    {
+                        buffTower.GiveBuff();
+                    }
+                    break;
+                case TowerType.OracleTower:
+                    Instantiate(OraclePrefab, slotToFill, Quaternion.identity, parent);
+                    GameManager.Instance.goldNumber -= GetTowerPrice(towerT);
+                    foreach (BuffTower buffTower in FindBuffTowers())
+                    {
+                        buffTower.GiveBuff();
+                    }
                     break;
             }
         }
@@ -55,5 +128,14 @@ public class Shop : MonoBehaviour
     public int GetTowerPrice(TowerType towerType)
     {
         return (from towerCost in towerCosts where towerCost.towerType == towerType select towerCost.towerPrice).FirstOrDefault();
+    }
+    public List<BuffTower> FindBuffTowers()
+    {
+        List<BuffTower> curBuffTowers = new List<BuffTower>();
+        foreach (BuffTower buffTower in FindObjectsOfType<BuffTower>())
+        {
+            curBuffTowers.Add(buffTower);
+        }
+        return curBuffTowers;
     }
 }

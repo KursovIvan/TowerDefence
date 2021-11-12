@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 925e1a8481008ac44bd4b473da710f86, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 84fd303b13644b74c934d373a2674d94, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -100,14 +100,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca581e82f1e46df45b9ead2bca4159d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HasTower: 0
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   currentColor: {r: 0.17051914, g: 0.9245283, b: 0.09158063, a: 1}
   orderInLayer: 0
-  rangeCircle: {fileID: 3026689883475492462, guid: 99307c91c4a582e4a95ad5ba1903633a,
-    type: 3}
-  rangeCircleInstance: {fileID: 0}
-  rangeRadius: 0
+  HasTower: 0
 --- !u!61 &-6278882432695813628
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -125,7 +121,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 1}
-    oldSize: {x: 0.82666665, y: 0.82666665}
+    oldSize: {x: 0.8270677, y: 0.8270677}
     newSize: {x: 0.62, y: 0.62}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

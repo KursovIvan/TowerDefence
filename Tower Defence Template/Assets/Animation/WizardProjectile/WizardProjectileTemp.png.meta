@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: 27ddd2e34059b674ba16e4947787c0df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8946443537113653232
+    second: WizardProjectileTemp_0
+  - first:
+      213: -930473792404315910
+    second: WizardProjectileTemp_1
+  - first:
+      213: 8548227726484559301
+    second: WizardProjectileTemp_2
+  - first:
+      213: 8462908337857128503
+    second: WizardProjectileTemp_3
+  - first:
+      213: -4619336980320475799
+    second: WizardProjectileTemp_4
+  - first:
+      213: 6559348894866226890
+    second: WizardProjectileTemp_5
+  - first:
+      213: 1377293090017441558
+    second: WizardProjectileTemp_6
+  - first:
+      213: -1971594405495206990
+    second: WizardProjectileTemp_7
+  - first:
+      213: -4682560114795635245
+    second: WizardProjectileTemp_8
+  - first:
+      213: 1875711008413749429
+    second: WizardProjectileTemp_9
+  - first:
+      213: 5204249609230780397
+    second: WizardProjectileTemp_10
+  - first:
+      213: -4376091247359575892
+    second: WizardProjectileTemp_11
+  - first:
+      213: 4922020136560016612
+    second: WizardProjectileTemp_12
+  - first:
+      213: 8545775825108181787
+    second: WizardProjectileTemp_13
+  - first:
+      213: 5015262153196865434
+    second: WizardProjectileTemp_14
+  - first:
+      213: -5905927839901462929
+    second: WizardProjectileTemp_15
+  - first:
+      213: 2573812927059371995
+    second: WizardProjectileTemp_16
+  - first:
+      213: 8556989501048395383
+    second: WizardProjectileTemp_17
+  - first:
+      213: -493325057876193709
+    second: WizardProjectileTemp_18
+  - first:
+      213: 2704656997139337831
+    second: WizardProjectileTemp_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WizardProjectileTemp_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2
+        width: 83
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff9fb82ff6282c70800000000000000
+      internalID: 8946443537113653232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardProjectileTemp_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 2
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af02ee2040b4613f0800000000000000
+      internalID: -930473792404315910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardProjectileTemp_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 2
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5d148a3d761a670800000000000000
+      internalID: 8548227726484559301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardProjectileTemp_3
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 2
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7386aac7b4a427570800000000000000
+      internalID: 8462908337857128503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardProjectileTemp_4
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 2
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9652c2e9d71d4efb0800000000000000
+      internalID: -4619336980320475799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardProjectileTemp_5
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace3a54211d770b50800000000000000
+      internalID: 6559348894866226890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardProjectileTemp_6
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617f616a4c02d1310800000000000000
+      internalID: 1377293090017441558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardProjectileTemp_7
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb8f4b855d73a4e0800000000000000
+      internalID: -1971594405495206990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardProjectileTemp_8
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd91368264340fb0800000000000000
+      internalID: -4682560114795635245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardProjectileTemp_9
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 2
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b09ac5693dd70a10800000000000000
+      internalID: 1875711008413749429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardProjectileTemp_10
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 2
+        width: 83
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de78aa04275393840800000000000000
+      internalID: 5204249609230780397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardProjectileTemp_11
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8bf6032300543c0800000000000000
+      internalID: -4376091247359575892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardProjectileTemp_12
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 2
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ecbaf87c378e4440800000000000000
+      internalID: 4922020136560016612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardProjectileTemp_13
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 2
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13a1b1e5d1b89670800000000000000
+      internalID: 8545775825108181787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardProjectileTemp_14
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 2
+        width: 84
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9782c83b5ac99540800000000000000
+      internalID: 5015262153196865434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardProjectileTemp_15
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 1
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e4599abede90ea0800000000000000
+      internalID: -5905927839901462929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardProjectileTemp_16
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7aea3783508b320800000000000000
+      internalID: 2573812927059371995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardProjectileTemp_17
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 1
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7769cb44d9880c670800000000000000
+      internalID: 8556989501048395383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardProjectileTemp_18
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 1
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e8d7e397b5729f0800000000000000
+      internalID: -493325057876193709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardProjectileTemp_19
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 2
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762d3c1853fd88520800000000000000
+      internalID: 2704656997139337831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

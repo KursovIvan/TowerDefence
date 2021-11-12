@@ -155,7 +155,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 11
 --- !u!114 &2048765026353583161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,10 +171,10 @@ MonoBehaviour:
   baseColor: {r: 0.4811321, g: 0.46070668, b: 0.46070668, a: 0.392}
   currentColor: {r: 1, g: 1, b: 1, a: 0.3764706}
   blockColor: {r: 0.8867924, g: 0, b: 0, a: 0.8156863}
+  linkedTower: 0
   movingTowerSpritePref: {fileID: 6920355888543070071, guid: ce7d61c127b5dc64985b7f2f96c1a95d,
     type: 3}
-  linkedTower: 0
-  RangeCircle: {fileID: 8342263725309927552, guid: 0331140edaca0974bacc38cbe7832c87,
+  RangeCircle: {fileID: 3026689883475492462, guid: 99307c91c4a582e4a95ad5ba1903633a,
     type: 3}
   radius: 0
 --- !u!1 &6738144669948454571
@@ -212,7 +212,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -31.3}
-  m_SizeDelta: {x: 120, y: 26.774452}
+  m_SizeDelta: {x: 100, y: 26.774452}
   m_Pivot: {x: 0.49999997, y: 0.49999982}
 --- !u!222 &3368040783184173373
 CanvasRenderer:
@@ -282,16 +282,16 @@ RectTransform:
   m_GameObject: {fileID: 8061655998961111920}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.42, y: 0.42, z: 0.42}
   m_Children: []
   m_Father: {fileID: 8818910974118506386}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 18.8}
-  m_SizeDelta: {x: 70, y: 75}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.2999878, y: -17.19}
+  m_SizeDelta: {x: 35, y: 60}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &2174063435147698506
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -315,7 +315,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 0
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []

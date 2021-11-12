@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class ShopItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler
 {
@@ -18,6 +16,7 @@ public class ShopItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public void SetData(Sprite Logo, string Name, int Cost, TowerType linkedT, float rangeRadius)
     {
         transform.GetChild(0).GetComponent<Image>().sprite = Logo;
+        transform.GetChild(0).GetComponent<Image>().SetNativeSize();
         transform.GetChild(1).GetComponent<Text>().text = Name;
         transform.GetChild(2).GetComponent<Text>().text = Cost.ToString();
         linkedTower = linkedT;
@@ -46,13 +45,16 @@ public class ShopItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         if (!GameManager.Instance.isPaused)
         {
+            Destroy(GameObject.FindGameObjectWithTag("RangeCircle"));
+            TowerInfo.Instance.TowerInfoReset();
             if (GetComponent<Image>().color == currentColor)
-            {
+            {              
                 GameObject movingSpriteInstance = Instantiate(movingTowerSpritePref, gameObject.transform);
                 movingSpriteInstance.transform.GetComponent<SpriteRenderer>().sprite = transform.GetChild(0).GetComponent<Image>().sprite;
                 movingSpriteInstance.GetComponent<MovingSprite>().linkedTower = linkedTower;
                 GameObject movingRangeCircle = Instantiate(RangeCircle);
-                movingRangeCircle.GetComponent<MovingRange>().ScaleRadius(radius);
+                movingRangeCircle.GetComponent<RangeCircle>().ScaleRadius(radius);
+                GetComponent<Image>().color = blockColor;
             }
         }
     }

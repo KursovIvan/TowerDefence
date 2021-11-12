@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
 public class MovingSprite : MonoBehaviour
 {
@@ -14,10 +11,11 @@ public class MovingSprite : MonoBehaviour
     void Update()
     {
         Vector2 cursorPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        gameObject.transform.position = cursorPos;
-        if (Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(0))
+        gameObject.transform.position = new Vector2(cursorPos.x, cursorPos.y - GetComponent<SpriteRenderer>().size.y / 4f);
+        if (Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Escape))
         {
             Destroy(gameObject);
+            Destroy(GameObject.FindGameObjectWithTag("RangeCircle"));
         }
     }
 }

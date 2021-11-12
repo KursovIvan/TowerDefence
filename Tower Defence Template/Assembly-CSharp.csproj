@@ -53,27 +53,73 @@
     <UnityVersion>2019.4.31f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_New.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_Translate.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoRotate.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightFlicker.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
+    <Compile Include="Assets\Scripts\Enemies\ArmoredBasicEnemy.cs" />
+    <Compile Include="Assets\Scripts\Enemies\ArmoredStealthEnemy.cs" />
     <Compile Include="Assets\Scripts\Enemies\BasicEnemy.cs" />
-    <Compile Include="Assets\Scripts\Enemies\FastEnemy.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Enemies\FlyingEnemy.cs" />
+    <Compile Include="Assets\Scripts\Enemies\MagicBasicEnemy.cs" />
+    <Compile Include="Assets\Scripts\Enemies\MagicFlyingEnemy.cs" />
+    <Compile Include="Assets\Scripts\Enemies\ResistBasicEnemy.cs" />
+    <Compile Include="Assets\Scripts\Enemies\ResistFlyingEnemy.cs" />
+    <Compile Include="Assets\Scripts\Enemies\ShapeshifterBasicEnemy.cs" />
+    <Compile Include="Assets\Scripts\Enemies\StealthEnemy.cs" />
     <Compile Include="Assets\Scripts\General\CellScript.cs" />
-    <Compile Include="Assets\Scripts\General\GameController.cs" />
+    <Compile Include="Assets\Scripts\General\CurrentLevel.cs" />
+    <Compile Include="Assets\Scripts\General\EnemyInfo.cs" />
+    <Compile Include="Assets\Scripts\General\LevelButton.cs" />
     <Compile Include="Assets\Scripts\General\LevelGenerator.cs" />
-    <Compile Include="Assets\Scripts\General\MovingRange.cs" />
     <Compile Include="Assets\Scripts\General\MovingSprite.cs" />
     <Compile Include="Assets\Scripts\General\Path.cs" />
+    <Compile Include="Assets\Scripts\General\RangeCircle.cs" />
     <Compile Include="Assets\Scripts\General\Shop.cs" />
     <Compile Include="Assets\Scripts\General\ShopItem.cs" />
-    <Compile Include="Assets\Scripts\General\StaticRange.cs" />
-    <Compile Include="Assets\Scripts\General\WaveManager.cs" />
-    <Compile Include="Assets\Scripts\Towers\FireProjectile.cs" />
-    <Compile Include="Assets\Scripts\Towers\FireTower.cs" />
+    <Compile Include="Assets\Scripts\General\TowerInfo.cs" />
+    <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\MainMenuManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\ParticleManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\UIManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\WaveManager.cs" />
+    <Compile Include="Assets\Scripts\Towers\BallistaProjectile.cs" />
+    <Compile Include="Assets\Scripts\Towers\BallistaTower.cs" />
+    <Compile Include="Assets\Scripts\Towers\BuffTower.cs" />
+    <Compile Include="Assets\Scripts\Towers\CannonProjectile.cs" />
+    <Compile Include="Assets\Scripts\Towers\CannonTower.cs" />
+    <Compile Include="Assets\Scripts\Towers\IceTower.cs" />
+    <Compile Include="Assets\Scripts\Towers\IceTriggerHandler.cs" />
+    <Compile Include="Assets\Scripts\Towers\OracleTower.cs" />
+    <Compile Include="Assets\Scripts\Towers\OracleTriggerHandler.cs" />
+    <Compile Include="Assets\Scripts\Towers\PoisonProjectile.cs" />
+    <Compile Include="Assets\Scripts\Towers\PoisonTower.cs" />
+    <Compile Include="Assets\Scripts\Towers\Projectile.cs" />
+    <Compile Include="Assets\Scripts\Towers\ShotgunTower.cs" />
     <Compile Include="Assets\Scripts\Towers\StoneProjectile.cs" />
     <Compile Include="Assets\Scripts\Towers\StoneTower.cs" />
-    <Compile Include="Assets\Scripts\UIManager.cs" />
+    <Compile Include="Assets\Scripts\Towers\TeslaProjectile.cs" />
+    <Compile Include="Assets\Scripts\Towers\TeslaTower.cs" />
+    <Compile Include="Assets\Scripts\Towers\Tower.cs" />
+    <Compile Include="Assets\Scripts\Towers\TriggerHandler.cs" />
+    <Compile Include="Assets\Scripts\Towers\WizardProjectile.cs" />
+    <Compile Include="Assets\Scripts\Towers\WizardTower.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Resources\Level3Layout.txt" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+    <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX Free.txt" />
+    <None Include="Assets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+    <None Include="Assets\Resources\Level2Layout.txt" />
     <None Include="Assets\Resources\Level1Layout.txt" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
